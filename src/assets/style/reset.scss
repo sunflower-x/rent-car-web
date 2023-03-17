@@ -1,0 +1,7 @@
+html,body{
+    height: 100%;
+}
+/* 点击门店弹出框后y轴出现滚动条,影响页面布局 */
+body{
+    overflow: hidden;
+}

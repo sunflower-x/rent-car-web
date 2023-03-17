@@ -1,0 +1,70 @@
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+@mixin flex-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-space-end{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+@mixin flex-end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+@mixin flex-space-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@mixin flex-space-evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+
+
+
+@mixin flex-align-center{
+    display: flex;
+    align-items: center;
+}
+
+
+@mixin flex-align-start{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@mixin flex-align-end{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+@mixin flex-align-space-between{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
+@mixin flex-align-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
